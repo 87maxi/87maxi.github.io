@@ -1,0 +1,17 @@
+github_users:
+  - torvalds
+  - alshedivat
+  - 87maxi
+
+github_repos:
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
+  - 87maxi/buscaminas
+  - 87maxi/laravel_auth
+  - 87maxi/vue
+  - 87maxi/bot_selenium 
