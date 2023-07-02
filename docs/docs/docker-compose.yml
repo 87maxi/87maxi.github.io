@@ -3,7 +3,9 @@ version: "3"
 services:
   jekyll:
     image: maxi
-    container_name: maxi
+    container_name: 87maxi
+    build:
+      dockerfile: ./Dockerfile
     command: bash -c "
       rm -f Gemfile.lock
       && bundler exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"
