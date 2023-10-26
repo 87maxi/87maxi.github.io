@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -42,3 +42,7 @@ Refine the use of docker and kubernetes microservices
 Increase my knowledge handling python and golang multiprocessing
 Knowledge more nginx openresty lua and streaming 
 improve my english
+
+
+***
+
