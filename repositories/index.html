@@ -373,7 +373,37 @@
           </article>
 
         </div>
-
+        
+        
+        <div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+    <script>
+      let giscusTheme = localStorage.getItem("theme");
+      let giscusAttributes = {
+          "src": "https://giscus.app/client.js",
+          "data-repo": "",
+          "data-repo-id": "",
+          "data-category": "",
+          "data-category-id": "",
+          "data-mapping": "",
+          "data-strict": "",
+          "data-reactions-enabled": "",
+          "data-emit-metadata": "",
+          "data-input-position": "",
+          "data-theme": "",
+          "data-lang": "",
+          "data-loading": "",
+          "crossorigin": "anonymous",
+          "async": "",
+      };
+  
+  
+      let giscusScript = document.createElement("script");
+      Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+      document.getElementById("giscus_thread").appendChild(giscusScript);
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+  </div>
       
     </div>
 
