@@ -5,6 +5,22 @@ description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
 category: work
+
+giscus:
+  repo: 87maxi/jupyter      # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOKLt31g
+  category: General             # name of the category under which discussions will be created
+  category_id: DIC_kwDOKLt31s4Cagy5
+  mapping: title                 # identify discussions by post title
+  strict: 0                      # use strict identification mode
+  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
+  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  theme: dark  # name of the color scheme (preferred works well with al-folio light/dark mode)
+  data-lang:  es
+  emit_metadata: 1
+  data-loading: lazy
+  lang: es
+
 ---
 
 Every project has a beautiful feature showcase page.
@@ -78,3 +94,5 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+{% include figure.html %}

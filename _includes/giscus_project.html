@@ -1,0 +1,28 @@
+<div id="giscus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto;">
+    <script>
+      let giscusTheme = localStorage.getItem("theme");
+      let giscusAttributes = {
+          "src": "https://giscus.app/client.js",
+          "data-repo": "{{ page.giscus.repo }}",
+          "data-repo-id": "{{ page.giscus.repo_id }}",
+          "data-category": "{{ page.giscus.category }}",
+          "data-category-id": "{{ page.giscus.category_id }}",
+          "data-mapping": "{{ page.giscus.mapping }}",
+          "data-strict": "{{ page.giscus.strict }}",
+          "data-reactions-enabled": "{{ page.giscus.reactions_enabled }}",
+          "data-emit-metadata": "{{ page.giscus.emit_metadata }}",
+          "data-input-position": "{{ page.giscus.input_position }}",
+          "data-theme": "{{ page.giscus.theme }}",
+          "data-lang": "{{ page.giscus.data-lang }}",
+          "data-loading": "{{ page.giscus.data-loading }}",
+          "crossorigin": "anonymous",
+          "async": "",
+      };
+  
+  
+      let giscusScript = document.createElement("script");
+      Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+      document.getElementById("giscus_thread").appendChild(giscusScript);
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript">comments powered by giscus.</a></noscript>
+  </div>
